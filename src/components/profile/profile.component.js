@@ -7,14 +7,15 @@ import '../profile/profile.component.css'
 import { Button } from 'react-bootstrap';
 import Typical from 'react-typical';
 
+
 export default function Profile() {
     return (
-        <div>
-            <Container fluid="md">
-                <Row className="sm={1}">
+        <div className="setText" style={{backgroundColor:"#243b4e"}}>
+            <Container  fluid="md">
+                <Row>
                     <Col className="m-auto justify-content">
-                        <div >
-                            <span>
+                        <Row>
+                        <span>
                                 <h1>
                                 {" "}
                                     <Typical
@@ -37,9 +38,11 @@ export default function Profile() {
                                     Ambitious Web Developer brings enthusiasm and detailed understanding of various programming languages to webpage planning, development and maintenance.
                                 </span>
                             </span>
-                        </div>
-                        <Button className="p-2 m-2">Contact Me</Button>
-                        <Button className="p-2 m-2">Download My Resume</Button>
+                        </Row>
+                        <Row >
+                            <Col><Button className="mt-4">Contact Me</Button></Col>
+                            <Col> <Button className="mt-4">Download My Resume</Button></Col>
+                        </Row>
                     </Col>
                     <Col className='m-2'>
                         <Image className="roundedImage" src= {require('../../img/ProfilePhoto.png')} width="300px" />
