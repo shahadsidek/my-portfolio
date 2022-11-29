@@ -1,8 +1,19 @@
 .aboutMeDiv{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     box-shadow:0 0px 20px -2px #1f2235 ;
-    width: 57%;
+    width: 60%;
+    margin-top: 50px;
+}
+.row-format{
+    padding: 10px; 
+}
+.about-info{
+    padding: 30px;
+    text-align: justify;
+}
+.about-image{
+    padding: 0px;
 }

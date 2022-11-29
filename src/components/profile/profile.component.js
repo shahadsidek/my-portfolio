@@ -6,12 +6,13 @@ import Image from 'react-bootstrap/Image';
 import '../profile/profile.component.css'
 import { Button } from 'react-bootstrap';
 import Typical from 'react-typical';
+import './profile.component.css'
 
 
 export default function Profile() {
     return (
-        <div className="setText" style={{backgroundColor:"#243b4e"}}>
-            <Container  fluid="md">
+        <div >
+            <Container className="m-auto justify-content setText">
                 <Row>
                     <Col className="m-auto justify-content">
                         <Row>

@@ -1,0 +1,43 @@
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(227, 227, 227);*/
+    margin-top: 40px;
+    width: 90%;
+}
+
+.image-format {
+    display: flex;
+    margin: 0px auto;
+    width: 160px;
+    height: 130px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 20%;
+    background-color: rgb(228, 228, 228);
+    justify-content: center;
+    align-items: center;
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+.mother-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-format img {
+    transition: all 1s;
+}
+
+.image-format img:hover {
+    transform: scale(1.1);
+}

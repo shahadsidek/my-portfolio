@@ -4,6 +4,7 @@ import { Component} from 'react';
 import Menubar from './components/menu-bar/menu-bar.component';
 import Profile from './components/profile/profile.component'
 import AboutMe from './components/about-me/about-me.component';
+import Skills from './components/skills/skills.component';
 
 class App extends Component {
   render(){
@@ -12,6 +13,7 @@ class App extends Component {
         <Menubar />
         <Profile />
         <AboutMe />
+        <Skills />
       </div>
     );
   }

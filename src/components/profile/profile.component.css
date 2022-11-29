@@ -3,8 +3,13 @@
     border-style: outset;
 }
 .setText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: 18px;
     font-weight: 100;
-
+    background-color:#243b4e;
+    margin: 40px;
+    max-width: 100%;
 }
