@@ -11,7 +11,7 @@ import Logo7 from '../../img/Skills/jquery-logo.png';
 import Logo8 from '../../img/Skills/react-logo.png';
 import Logo9 from '../../img/Skills/bootstrap-logo.png';
 import Logo10 from '../../img/Skills/postgresql-logo.png';
-import Logo11 from '../../img/Skills/django-logo.jpeg';
+import Logo11 from '../../img/Skills/django-logo.png';
 
 
 export default function Skills() {

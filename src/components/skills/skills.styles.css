@@ -35,9 +35,9 @@
 }
 
 .image-format img {
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .image-format img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
