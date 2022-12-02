@@ -41,8 +41,12 @@ export default function Profile() {
                             </span>
                         </Row>
                         <Row >
-                            <Col><Button className="profileButton mt-4">Contact Me</Button></Col>
-                            <Col> <Button className="profileButton mt-4">Download My Resume</Button></Col>
+                            <Col><Button className="profileButton mt-4" onClick={(e) => {e.preventDefault(); window.location.replace('/#contact');}}>Contact Me</Button></Col>
+                            <Col> 
+                            <a href='./ShahadSidek Dev.pdf' download='Shahad Sidek.pdf'>
+                                <Button className="profileButton mt-4">Download My Resume</Button>
+                            </a>
+                            </Col>
                         </Row>
                     </Col>
                     <Col className='m-2'>
