@@ -144,6 +144,24 @@ body{
     border: 0;
     max-height: 95%;
 }
+@media screen and (max-width: 991px){
+    .main-c-container .contact-info-container{
+        width: 100%;
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-c-container .contact-info-container form{
+        width: 100%;
+        max-width: 500px;
+        padding:0;
+    }
+    .main-c-container .contact-picture-container{
+        display: none;
+
+    }
+}
 /*
 .main-c-container{
     display: flex;
