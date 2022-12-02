@@ -6,7 +6,7 @@ import './project.styles.css'
 export default function Projects() {
   return (
     <div className="card-container">
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '18rem' }} className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/833052/pexels-photo-833052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Street Wear Fashion Website</Card.Title>
@@ -21,7 +21,7 @@ export default function Projects() {
         </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/930530/pexels-photo-930530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Portfolio Project</Card.Title>
@@ -37,7 +37,7 @@ export default function Projects() {
         </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/1329571/pexels-photo-1329571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Book Club Website</Card.Title>
@@ -55,7 +55,7 @@ export default function Projects() {
     </Card>
 
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }}  className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Music Rolodex</Card.Title>
@@ -73,7 +73,7 @@ export default function Projects() {
         </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }}  className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/5589903/pexels-photo-5589903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Monster Rolodex</Card.Title>
@@ -91,7 +91,7 @@ export default function Projects() {
         </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }}  className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Landpage Design</Card.Title>
@@ -107,7 +107,7 @@ export default function Projects() {
         </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }}  className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Python Hangman Game</Card.Title>
@@ -122,7 +122,7 @@ export default function Projects() {
         </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }}  className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Survey Design Page</Card.Title>
@@ -138,7 +138,7 @@ export default function Projects() {
         </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }}  className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/13972262/pexels-photo-13972262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
             <Card.Title>Database Design of Restaurant App</Card.Title>

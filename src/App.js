@@ -7,6 +7,7 @@ import AboutMe from './components/about-me/about-me.component';
 import Skills from './components/skills/skills.component';
 import Projects from './components/projects/project.component';
 import Resume from './components/resume/resume.component';
+import Contact from './components/contact-me/contact.component';
 
 class App extends Component {
   render(){
@@ -18,6 +19,7 @@ class App extends Component {
         <Resume />
         <Skills />
         <Projects />
+        <Contact />
       </div>
     );
   }

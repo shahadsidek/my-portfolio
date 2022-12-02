@@ -1,5 +1,18 @@
 .card-container{
+    margin: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-style{
+    margin: 10px;
+    margin-top: 40px;
+    transition: all 1s;
+}
+
+.card-style:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px 10px grey;
 }
