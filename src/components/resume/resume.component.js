@@ -7,7 +7,7 @@ const Resume = (props) =>  {
 
     const ResumeHeading=(props) => {
         return(
-            <div className='resume-heading'>
+            <div id="resume" className='resume-heading'>
                 <div className='resume-main-heading'>
                     <div className='heading-bullet'></div>
                     <span>{props.heading ? props.heading : ''}</span>
@@ -86,16 +86,16 @@ const Resume = (props) =>  {
     
         <div className="resume-screen-container" key="interests">
             <ResumeHeading
-                heading="Drawing Characters Animation"
+                heading="Digital Illustrating"
                 description="Started Learning Drawing Manga and Chibi characters"
             />    
             <ResumeHeading
-                heading="Home Design Decoration"
+                heading="Home Decoration"
                 description="Love flipping home and coming up with new designs and adding personal peices to every corner"
             />    
             <ResumeHeading
-                heading="Street Wear/ Hip Hop Fashion Style"
-                description="Started Learning Drawing Manga and Chibi characters"
+                heading="Designing Hip Hop clothes"
+                description="Design Hype - Streetwear - Hip Hop Clothes "
             />    
         </div>
     ];

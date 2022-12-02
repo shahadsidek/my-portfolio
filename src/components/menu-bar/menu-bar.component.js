@@ -17,11 +17,11 @@ class Menubar extends Component{
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav>
-                                <Nav.Link href="#">Home</Nav.Link>
-                                <Nav.Link href="#">About Me</Nav.Link>
-                                <Nav.Link href="#">Skills</Nav.Link>
-                                <Nav.Link href="#">Project</Nav.Link>
-                                <Nav.Link href="#">Contact Me</Nav.Link>
+                                <Nav.Link >Home</Nav.Link>
+                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#aboutMe');}}>About Me</Nav.Link>
+                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#skills');}}>Skills</Nav.Link>
+                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#projects');}}>Project</Nav.Link>
+                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#contact');}}>Contact Me</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

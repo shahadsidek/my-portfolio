@@ -5,7 +5,8 @@ import './project.styles.css'
 
 export default function Projects() {
   return (
-    <div className="card-container">
+    <><h2 id="projects">My Projects</h2>
+    <div  className="card-container">  
       <Card style={{ width: '18rem' }} className="card-style">
         <Card.Img variant="top" src="https://images.pexels.com/photos/833052/pexels-photo-833052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
         <Card.Body>
@@ -16,8 +17,8 @@ export default function Projects() {
             <ListGroup.Item>CSS</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-            <Card.Link href="#">Github</Card.Link>
-            <Card.Link href="#">Website</Card.Link>
+            <Card.Link href="https://github.com/shahadsidek/street-wear-fashion-website">Github</Card.Link>
+            <Card.Link href=" https://shahadsidek.github.io/street-wear-fashion-website/">Website</Card.Link>
         </Card.Body>
     </Card>
 
@@ -32,7 +33,7 @@ export default function Projects() {
                 <ListGroup.Item>React</ListGroup.Item>
             </ListGroup>
         <Card.Body>
-            <Card.Link href="#">Github</Card.Link>
+            <Card.Link href="https://github.com/shahadsidek/my-portfolio">Github</Card.Link>
             <Card.Link href="#">Website</Card.Link>
         </Card.Body>
     </Card>
@@ -154,5 +155,6 @@ export default function Projects() {
         </Card.Body>
     </Card>
     </div>
+    </>
   )
 }

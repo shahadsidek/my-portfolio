@@ -16,7 +16,7 @@ import Logo11 from '../../img/Skills/django-logo.png';
 
 export default function Skills() {
   return (
-    <div className= 'mother-container'>
+    <div id="skills" className= 'mother-container'>
         <div><h2>Skills </h2></div>
         <div class="break"></div>
         <div className="skills-container">

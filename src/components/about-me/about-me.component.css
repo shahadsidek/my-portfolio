@@ -1,29 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .aboutMeDiv{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    box-shadow:0 0px 20px -2px #1f2235 ;
-    width: 80%;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    /*box-shadow:0 0px 20px -2px #ffffff ;*/
+    width: 70%;
     margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+h2{
+    color:#fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform:uppercase;
+    color: #ff5064;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 40px;
+  
 }
 .row-format{
     padding: 10px; 
     display: flex;
     flex-direction: row;
+    
 }
-.col-format{
-    border: 1px solid green
-}
-.col2-format{
-    border: 1px solid rgb(0, 162, 255)
-}
+
 .about-info{
     padding: 30px;
     text-align: justify;
 }
 .about-image{
+    height: 300px;
+    width:fit-content;
     padding: 0px;
+    position: relative; 
+    top:0px;
+    left: 0px;
 }
 .work-format{
     padding: 10px; 
@@ -31,9 +49,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    border:1px solid red;
     width: 50%;
     margin: 20px;
+    
 }
 
 /*

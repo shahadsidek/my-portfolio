@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .resume-container {
     display: flex;
     align-items: center;
@@ -5,11 +6,17 @@
     justify-content: center;
     min-height: fit-content;
     margin: 120px 0;
+    
+}
+.resume-heading h3{
+    margin-top: 40px;
+    color:#fff
 }
 .resume-card {
     display: flex;
     height: 360px;
-    width: 1000px;
+    width: 1200px;
+    background-color: #fff;
 }
 .resume-bullets{
     height:100%;
@@ -45,7 +52,7 @@
 .bullet{
     display: flex;
     align-items: center;
-    background-color: #1f2235;
+    background-color:  #ff5064;
     height: 40px; 
     margin: 15px 0;
     padding: 0 8px;
@@ -69,7 +76,7 @@
     width: 40px;
     height: 100%;
     z-index: 1;
-    background-color: #1f2235;
+    background-color:  #ff5064;;
     position: absolute;
 }
 .selected-bullet {
@@ -105,7 +112,7 @@
     height: 15px;
     width: 15px;
     top: 5px;
-    background-color: rgb(255, 167, 4);
+    background-color:  #ff5064;;
     border-radius: 50%;
 }
 .resume-sub-heading{
@@ -120,7 +127,7 @@
     text-align: justify;
 }
 .heading-date{
-    background-color: orange;
+    background-color:  #ff5064;;
     padding: 4px 12px;
     font-size: 14px;
     border-radius: 14px;
@@ -146,12 +153,7 @@
     width: 70%;
     background-color: var(--dark-orange);
 }
-.skill-percentage .active-percentage-bar{
-    height: 15px;
-    transition: 0.8s ease;
-    position: absolute;
-    background-color: #1f2235;
-}
+
 .skill-parent span{
     font-family: "Poppins semiBold";
     font-size: 16px;

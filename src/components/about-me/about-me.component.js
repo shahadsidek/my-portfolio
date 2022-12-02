@@ -11,14 +11,12 @@ export default function AboutMe() {
     return (
         <>
             <h2>About Me</h2>
-            <Container className="aboutMeDiv">
+            <Container id="aboutMe" className="aboutMeDiv">
                 <Row className="row-format">
 
                     <Col>
                         <Image
                             src={aboutMe}
-                            width="auto"
-                            height="370px"
                             className="about-image"
                         />
                     </Col>

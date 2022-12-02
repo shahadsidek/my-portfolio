@@ -12,7 +12,7 @@ import './profile.component.css'
 export default function Profile() {
     return (
         <div >
-            <Container className="m-auto justify-content setText">
+            <Container className="profile-container m-auto justify-content setText">
                 <Row>
                     <Col className="m-auto justify-content">
                         <Row>
@@ -41,8 +41,8 @@ export default function Profile() {
                             </span>
                         </Row>
                         <Row >
-                            <Col><Button className="mt-4">Contact Me</Button></Col>
-                            <Col> <Button className="mt-4">Download My Resume</Button></Col>
+                            <Col><Button className="profileButton mt-4">Contact Me</Button></Col>
+                            <Col> <Button className="profileButton mt-4">Download My Resume</Button></Col>
                         </Row>
                     </Col>
                     <Col className='m-2'>

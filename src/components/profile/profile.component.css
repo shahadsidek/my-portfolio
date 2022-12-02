@@ -6,10 +6,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #0d192e;
     font-size: 18px;
     font-weight: 100;
-    background-color:#243b4e;
+    background-color:#fff;
     margin: 40px;
     max-width: 100%;
+}
+.profile-container{
+    height: 400px; 
+    width: 100%;
+    
+}
+.profileButton{
+ background-color: #ff5064;
+ outline: none;
+ border: 0;
+ padding: 10px;
 }
