@@ -15,42 +15,42 @@ export default function Profile() {
             <Container className="profile-container m-auto justify-content setText">
                 <Row>
                     <Col className="m-auto justify-content">
-                        <Row>
-                        <span>
+                        <Row >
+                            <span>
                                 <h1>
-                                {" "}
+                                    {" "}
                                     <Typical
-                                        loop = {Infinity}
+                                        loop={Infinity}
                                         steps={[
-                                        "Web Developer",
-                                        1500,
-                                        "Frontend Developer",
-                                        1500,
-                                        "Python Developer",
-                                        1500,
-                                        "Graphic Desginer",
-                                        1500,
-                                        "Cartoonist",
-                                        1500,
+                                            "Web Developer",
+                                            1500,
+                                            "Frontend Developer",
+                                            1500,
+                                            "Python Developer",
+                                            1500,
+                                            "Graphic Desginer",
+                                            1500,
+                                            "Cartoonist",
+                                            1500,
                                         ]}
-                                    />              
+                                    />
                                 </h1>
-                                <span>
+                                <span className='pro-text'>
                                     Ambitious Web Developer brings enthusiasm and detailed understanding of various programming languages to webpage planning, development and maintenance.
                                 </span>
                             </span>
                         </Row>
                         <Row >
-                            <Col><Button className="profileButton mt-4" onClick={(e) => {e.preventDefault(); window.location.replace('/#contact');}}>Contact Me</Button></Col>
-                            <Col> 
-                            <a href='./ShahadSidek Dev.pdf' download='Shahad Sidek.pdf'>
-                                <Button className="profileButton mt-4">Download My Resume</Button>
-                            </a>
+                            <Col><Button className="profileButton mt-4" onClick={(e) => { e.preventDefault(); window.location.replace('/#contact'); }}>Contact Me</Button></Col>
+                            <Col>
+                                <a href='./ShahadSidek Dev.pdf' download='Shahad Sidek.pdf'>
+                                    <Button className="profileButton mt-4">My Resume</Button>
+                                </a>
                             </Col>
                         </Row>
                     </Col>
-                    <Col className='m-2'>
-                        <Image className="roundedImage" src= {require('../../img/ProfilePhoto.png')} width="300px" />
+                    <Col className='pro-img m-2'>
+                        <Image className="img-fluid roundedImage" src={require('../../img/ProfilePhoto.png')} width="300px" />
                     </Col>
                 </Row>
             </Container>

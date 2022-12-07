@@ -1,26 +1,42 @@
-.roundedImage{
+.roundedImage {
     border-radius: 50%;
     border-style: outset;
 }
-.setText{
+
+.setText {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
     color: #0d192e;
     font-size: 18px;
     font-weight: 100;
-    background-color:#fff;
+    background-color: #fff;
     margin: 40px;
     max-width: 100%;
 }
-.profile-container{
-    height: 400px; 
+
+.profile-container {
+    height: 400px;
     width: 100%;
-    
+
 }
-.profileButton{
- background-color: #ff5064;
- outline: none;
- border: 0;
- padding: 10px;
+
+.profileButton {
+    background-color: #ff5064;
+    outline: none;
+    border: 0;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .profile-container{
+        height: 100%;
+        padding: 30px 15px;
+    }
+    .profile-container .row{
+        flex-direction: column-reverse;
+        margin: 0px 0px;
+    }
 }
