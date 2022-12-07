@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55f8ce82.css",
+    "main.js": "/static/js/main.10304bae.js",
+    "static/media/ProfilePhoto.png": "/static/media/ProfilePhoto.78bcaf115329543fe00b.png",
+    "static/media/AboutMe6.webp": "/static/media/AboutMe6.639cf04684bf817df0a5.webp",
+    "static/media/contact.png": "/static/media/contact.1117d7bd487990e975b5.png",
+    "static/media/python-logo.png": "/static/media/python-logo.793e6a793534aa7f8e25.png",
+    "static/media/css-logo.png": "/static/media/css-logo.9058bae4ab9598dd2f00.png",
+    "static/media/react-logo.png": "/static/media/react-logo.7fa4029de62bb035aaa4.png",
+    "static/media/html-logo.png": "/static/media/html-logo.3de4a8c5d7b413036a90.png",
+    "static/media/js-log.png": "/static/media/js-log.f9b5a3bc9bb5205e88b3.png",
+    "static/media/postgresql-logo.png": "/static/media/postgresql-logo.74b0be790ac7c252bd0b.png",
+    "static/media/github-logo.png": "/static/media/github-logo.e755f1499330c2432b57.png",
+    "index.html": "/index.html",
+    "static/media/programming-skills.svg": "/static/media/programming-skills.d19983a9bee884277ffa.svg",
+    "static/media/projects.svg": "/static/media/projects.2b352a52b0588dab62f5.svg",
+    "static/media/interests.svg": "/static/media/interests.809890a3e4fb0938f61b.svg",
+    "static/media/education.svg": "/static/media/education.10cfa28a40119ebd70cf.svg",
+    "static/media/work-history.svg": "/static/media/work-history.a566475dedb99dea4bb8.svg",
+    "main.55f8ce82.css.map": "/static/css/main.55f8ce82.css.map",
+    "main.10304bae.js.map": "/static/js/main.10304bae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55f8ce82.css",
+    "static/js/main.10304bae.js"
+  ]
+}
