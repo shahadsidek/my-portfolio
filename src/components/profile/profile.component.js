@@ -7,6 +7,7 @@ import '../profile/profile.component.css'
 import { Button } from 'react-bootstrap';
 import Typical from 'react-typical';
 import './profile.component.css'
+import ShahadResume from './ShahadSidek Dev.pdf';
 
 
 export default function Profile() {
@@ -43,7 +44,7 @@ export default function Profile() {
                         <Row >
                             <Col><Button className="profileButton mt-4" onClick={(e) => { e.preventDefault(); window.location.replace('/#contact'); }}>Contact Me</Button></Col>
                             <Col>
-                                <a href='./ShahadSidek Dev.pdf' download='Shahad Sidek.pdf'>
+                                <a href={ShahadResume} download='Shahad Sidek.pdf'>
                                     <Button className="profileButton mt-4">My Resume</Button>
                                 </a>
                             </Col>
