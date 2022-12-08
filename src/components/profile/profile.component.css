@@ -30,6 +30,28 @@
     padding: 10px;
 }
 
+
+
+/*the setting for Ipad Pro*/
+@media screen and (max-width: 1110px){
+    .profile-picture{
+        margin: 0 0px 0 80px;
+
+    }
+    .profile-details-name{
+        font-size: 20px;
+    }
+    .profile-details-role .primary-text{
+        font-size: 12px;
+    }
+    .profile-options .btn{
+        width:120px;
+        padding: 11px 0;
+        z-index: 700;
+
+    }
+}
+
 @media screen and (max-width: 768px){
     .profile-container{
         height: 100%;

@@ -1,0 +1,14 @@
+.colz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #122647;
+    height: 60px;
+
+}
+.colz-icon i
+{
+    color:#ffffff;
+    padding: 8px;
+    padding-left: 20px;
+}

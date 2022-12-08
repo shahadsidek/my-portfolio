@@ -8,6 +8,7 @@ import Skills from './components/skills/skills.component';
 import Projects from './components/projects/project.component';
 import Resume from './components/resume/resume.component';
 import Contact from './components/contact-me/contact.component';
+import Social from './components/social-links/socialLinks';
 
 class App extends Component {
   render(){
@@ -15,6 +16,7 @@ class App extends Component {
       <div className="App">
         <Menubar />
         <Profile />
+        <Social />
         <AboutMe />
         <Resume />
         <Skills />

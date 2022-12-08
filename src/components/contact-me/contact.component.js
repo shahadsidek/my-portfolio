@@ -50,6 +50,7 @@ const Contact = () => {
           <button id='submit-button' type='submit'>Send</button>
           </div>
         </form>
+        
       </div>
       <div className="contact-picture-container">
         <img src={imgCont}/>

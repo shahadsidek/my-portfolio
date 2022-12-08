@@ -13,7 +13,7 @@ export default function Profile() {
     return (
         <div >
             <Container className="profile-container m-auto justify-content setText">
-                <Row>
+                <Row >
                     <Col className="m-auto justify-content">
                         <Row >
                             <span>

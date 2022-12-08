@@ -40,47 +40,47 @@ const Resume = (props) =>  {
             <ResumeHeading 
                 heading={"Nucamp "}
                 subHeading={"Software Engineering Bootcamp"}
-                fromDate= {"Jan 2022"}
-                toDate={"Dec 2022"}
+                fromDate= {"Jan 22"}
+                toDate={"Dec 22"}
             />
             <ResumeHeading 
                 heading={"Humber College"}
                 subHeading={"Bachelor Degree in Interior Design"}
-                fromDate= {"Sep 2010"}
-                toDate={"Apr 2014"}
+                fromDate= {"Sep 10"}
+                toDate={"Apr 14"}
             />
             <ResumeHeading 
                 heading={"Aptech Computer Education Center"}
                 subHeading={"Adcanced Diploma in Software Engineering"}
-                fromDate= {"May 2002"}
-                toDate={"May 2005"}
+                fromDate= {"May 02"}
+                toDate={"May 05"}
             />
         </div>,
         <div className="resume-screen-container" key="work-experience">
             <ResumeHeading 
                 heading={"Brainnest"}
                 subHeading={"Frontend Developer Trainer"}
-                fromDate= {"Nov 2022"}
-                toDate={"Dec 2022"}
+                fromDate= {"Nov 22"}
+                toDate={"Dec 22"}
             />
 
             <ResumeHeading 
                 heading={"E-teacher Group"}
                 subHeading={"Customer Service & Technical Support"}
-                fromDate= {"Feb 2021"}
-                toDate={"Sep 2021"}
+                fromDate= {"Feb 21"}
+                toDate={"Sep 21"}
             />
             <ResumeHeading 
                 heading={"Qatar Engineering and Industrial Consultancy"}
                 subHeading={"Interior Designer and Project Manager Assistant"}
-                fromDate= {"May 2018"}
-                toDate={"Jan 2020"}
+                fromDate= {"May 18"}
+                toDate={"Jan 20"}
             />
             <ResumeHeading 
                 heading={"in Various Companies in Qatar "}
                 subHeading={"6 Years of Experience in Admin Field"}
-                fromDate= {"May 2005"}
-                toDate={"Mar 2017"}
+                fromDate= {"May 05"}
+                toDate={"Mar 17"}
             />
         </div>,
     
