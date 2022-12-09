@@ -42,7 +42,7 @@ export default function Profile() {
                             </span>
                         </Row>
                         <Row >
-                            <Col><Button className="profileButton mt-4" onClick={(e) => { e.preventDefault(); window.location.replace('/#contact'); }}>Contact Me</Button></Col>
+                            <Col><Button className="profileButton mt-4" ><a href="#contact" style={{ textDecoration: 'none', color: 'inherit' }}>Contact Me</a></Button></Col>
                             <Col>
                                 <a href={ShahadResume} download='Shahad Sidek.pdf'>
                                     <Button className="profileButton mt-4">My Resume</Button>
