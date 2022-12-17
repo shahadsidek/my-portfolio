@@ -124,6 +124,23 @@ export default function Projects() {
                         <Card.Link href="https://shahadsidek.github.io/CalculatorJS/">Website</Card.Link>
                     </Card.Body>
                 </Card>
+
+
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
+                    <Card.Body>
+                        <Card.Title>Smoothies Landpage Design</Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Smoothies-Webpage-Design-">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/CalculatorJS/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
             </div>
         </>
     )
