@@ -127,7 +127,7 @@ export default function Projects() {
 
 
                 <Card style={{ width: '18rem' }} className="card-style">
-                    <Card.Img variant="top" src="https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
                     <Card.Body>
                         <Card.Title>Smoothies Landpage Design</Card.Title>
 
@@ -137,8 +137,8 @@ export default function Projects() {
                         <ListGroup.Item>CSS</ListGroup.Item>
                     </ListGroup>
                     <Card.Body>
-                        <Card.Link href="https://github.com/shahadsidek/Smoothies-Webpage-Design-">Github</Card.Link>
-                        <Card.Link href="https://shahadsidek.github.io/CalculatorJS/">Website</Card.Link>
+                        <Card.Link href="https://github.com/shahadsidek/Landpage-Design-smoothies">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/Landpage-Design-smoothies/">Website</Card.Link>
                     </Card.Body>
                 </Card>
             </div>
