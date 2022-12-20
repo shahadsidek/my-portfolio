@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import './about-me.component.css'
-import aboutMe from '../../img/AboutMe6.webp'
+import aboutMe from '../../img/Shahad-Profile-Photo.png';
 
 
 export default function AboutMe() {
