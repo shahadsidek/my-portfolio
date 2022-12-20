@@ -5,7 +5,7 @@ export default function Social() {
     return (
         <div className="colz">
             <div className='colz-icon d-inline-flex p-2'>
-                <a href='https://www.linkedin.com/in/shahad-sidek/'>
+                <a href='https://www.linkedin.com/in/shahads/'>
                     <i className='fa fa-2x fa-linkedin-square '> </i>
                 </a>
                 <a href='https://www.instagram.com/techie.learner/'>
