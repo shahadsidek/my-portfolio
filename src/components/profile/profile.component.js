@@ -9,7 +9,6 @@ import Typical from 'react-typical';
 import './profile.component.css'
 import ShahadResume from './ShahadSidek Dev.pdf';
 
-
 export default function Profile() {
     return (
         <div >

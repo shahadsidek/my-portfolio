@@ -6,7 +6,6 @@ import Image from 'react-bootstrap/Image';
 import './about-me.component.css'
 import aboutMe from '../../img/AboutMe6.webp';
 
-
 export default function AboutMe() {
     return (
         <>
