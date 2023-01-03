@@ -127,7 +127,7 @@ export default function Projects() {
 
 
                 <Card style={{ width: '18rem' }} className="card-style">
-                    <Card.Img variant="top" src="https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/7937002/pexels-photo-7937002.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
                     <Card.Body>
                         <Card.Title>Smoothies Landpage Design</Card.Title>
 
