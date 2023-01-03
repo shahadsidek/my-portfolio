@@ -51,7 +51,7 @@ export default function Profile() {
                         </Row>
                     </Col>
                     <Col className='pro-img m-2'>
-                        <Image className="img-fluid roundedImage" src={require('../../img/ProfilePhoto.png')} width="300px" />
+                        <Image className="img-fluid roundedImage" src={require('../../img/Profile-Photo.jpg')} width="300px" />
                     </Col>
                 </Row>
             </Container>
