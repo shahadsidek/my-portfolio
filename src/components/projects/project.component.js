@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import './project.styles.css'
+import './project.styles.css';
 
 export default function Projects() {
     return (
