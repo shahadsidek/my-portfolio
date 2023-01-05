@@ -141,6 +141,38 @@ export default function Projects() {
                         <Card.Link href="https://shahadsidek.github.io/Landpage-Design-smoothies/">Website</Card.Link>
                     </Card.Body>
                 </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/8939806/pexels-photo-8939806.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>E-Commerce Store</Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>SCSS</ListGroup.Item>
+                        <ListGroup.Item>React</ListGroup.Item>
+                        <ListGroup.Item>Firebase</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/my-online-shop">Github</Card.Link>
+                        <Card.Link href="#">Under Process</Card.Link>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/8939806/pexels-photo-8939806.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>My Achievement Timeline</Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>SCSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Achievement-Timeline">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/Achievement-Timeline/">Website (under process)</Card.Link>
+                    </Card.Body>
+                </Card>
             </div>
         </>
     )

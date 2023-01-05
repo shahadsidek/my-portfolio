@@ -78,7 +78,7 @@ const Resume = (props) =>  {
             />
             <ResumeHeading 
                 heading={"in Various Companies in Qatar "}
-                subHeading={"6 Years of Experience in Admin Field"}
+                subHeading={"7 Years of Experience in Office Management and Project Coordination Field"}
                 fromDate= {"May 05"}
                 toDate={"Mar 17"}
             />
