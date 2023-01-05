@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.a2776119.css",
-    "main.js": "/my-portfolio/static/js/main.a7eb22eb.js",
+    "main.js": "/my-portfolio/static/js/main.6428217c.js",
     "static/media/AboutMe6.webp": "/my-portfolio/static/media/AboutMe6.639cf04684bf817df0a5.webp",
     "static/media/sass-logo.svg.png": "/my-portfolio/static/media/sass-logo.svg.aa16d6441e3e941f60c1.png",
     "static/media/ShahadSidek Dev.pdf": "/my-portfolio/static/media/ShahadSidek Dev.1391e721c57a93ff3c29.pdf",
@@ -21,10 +21,10 @@
     "static/media/education.svg": "/my-portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/my-portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
     "main.a2776119.css.map": "/my-portfolio/static/css/main.a2776119.css.map",
-    "main.a7eb22eb.js.map": "/my-portfolio/static/js/main.a7eb22eb.js.map"
+    "main.6428217c.js.map": "/my-portfolio/static/js/main.6428217c.js.map"
   },
   "entrypoints": [
     "static/css/main.a2776119.css",
-    "static/js/main.a7eb22eb.js"
+    "static/js/main.6428217c.js"
   ]
 }
