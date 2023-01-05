@@ -13,6 +13,10 @@ import Logo9 from '../../img/Skills/bootstrap-logo.png';
 import Logo10 from '../../img/Skills/postgresql-logo.png';
 import Logo11 from '../../img/Skills/django-logo.png';
 import Logo12 from '../../img/Skills/sass-logo.svg.png'
+import Logo13 from '../../img/Skills/flask .png';
+import Logo14 from '../../img/Skills/express node mongo db.jpeg'
+import Logo15 from '../../img/Skills/react-native-logo.png';
+import Logo16 from '../../img/Skills/1280px-Firebase_Logo.svg.png'
 
 
 export default function Skills() {
@@ -104,6 +108,34 @@ export default function Skills() {
                 <Image
                     src={Logo12}
                     width= '140px'
+                    height='60px'
+                />
+            </div>
+            <div className='image-format'>
+                <Image
+                    src={Logo13}
+                    width= '130px'
+                    height='60px'
+                />
+            </div>
+            <div className='image-format'>
+                <Image
+                    src={Logo14}
+                    width= '125px'
+                    height='103px'
+                />
+            </div>
+            <div className='image-format'>
+                <Image
+                    src={Logo15}
+                    width= '110px'
+                    height='103px'
+                />
+            </div>
+            <div className='image-format'>
+                <Image
+                    src={Logo16}
+                    width= '130px'
                     height='60px'
                 />
             </div>

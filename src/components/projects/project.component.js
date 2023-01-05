@@ -159,7 +159,7 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className="card-style">
-                    <Card.Img variant="top" src="https://images.pexels.com/photos/8939806/pexels-photo-8939806.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&w=1600 cap" />
                     <Card.Body>
                         <Card.Title>My Achievement Timeline</Card.Title>
 
@@ -167,6 +167,23 @@ export default function Projects() {
                     <ListGroup className="list-group-flush">
                         <ListGroup.Item>HTML</ListGroup.Item>
                         <ListGroup.Item>SCSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Achievement-Timeline">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/Achievement-Timeline/">Website (under process)</Card.Link>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/3850241/pexels-photo-3850241.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>Contacts App</Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>JavaScript</ListGroup.Item>
+                        <ListGroup.Item>React</ListGroup.Item>
+                        <ListGroup.Item>Vite</ListGroup.Item>
                     </ListGroup>
                     <Card.Body>
                         <Card.Link href="https://github.com/shahadsidek/Achievement-Timeline">Github</Card.Link>
