@@ -17,6 +17,9 @@ export default function Social() {
                 <a href='https://twitter.com/techie_learner'>
                     <i className='fa fa-2x fa-twitter'></i>
                 </a>
+                <a href='https://medium.com/@shahad.sidek'>
+                    <i className='fa fa-2x fa-brands fa-medium'></i>
+                </a>
             </div>
         </div>
     )

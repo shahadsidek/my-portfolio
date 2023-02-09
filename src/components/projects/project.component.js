@@ -190,6 +190,52 @@ export default function Projects() {
                         <Card.Link href="https://shahadsidek.github.io/Achievement-Timeline/">Website (under process)</Card.Link>
                     </Card.Body>
                 </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>DashBoard</Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Dashboard-Group-Project">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/Dashboard-Group-Project//">Website</Card.Link>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/13051284/pexels-photo-13051284.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>Sign-Up Form </Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                        <ListGroup.Item>JavaScript</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Sign-Up-Form">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/Sign-Up-Form/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>Interior Design Portfolio </Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/interior-design-projects-portfolio">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/interior-design-projects-portfolio/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
             </div>
         </>
     )
