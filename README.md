@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 # Wesbite: https://shahadsidek.github.io/my-portfolio/
+
+https://github.com/Frnt-End/Update-React-in-GitHub-Pages
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
