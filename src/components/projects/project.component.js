@@ -236,6 +236,21 @@ export default function Projects() {
                         <Card.Link href="https://shahadsidek.github.io/interior-design-projects-portfolio/">Website</Card.Link>
                     </Card.Body>
                 </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>Responsive Portfolio </Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/HTML-CSS-Portfolio-Responsive">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/HTML-CSS-Portfolio-Responsive/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
             </div>
         </>
     )
