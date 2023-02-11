@@ -237,7 +237,7 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className="card-style">
-                    <Card.Img variant="top" src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/14936124/pexels-photo-14936124.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
                     <Card.Body>
                         <Card.Title>Responsive Portfolio </Card.Title>
 
