@@ -251,6 +251,52 @@ export default function Projects() {
                         <Card.Link href="https://shahadsidek.github.io/HTML-CSS-Portfolio-Responsive/">Website</Card.Link>
                     </Card.Body>
                 </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/2182981/pexels-photo-2182981.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>Sunny Side Marketing Agency Website </Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Sunnyside-Marketing-Agency">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/Sunnyside-Marketing-Agency/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>Virtual Library Website </Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                        <ListGroup.Item>Javascript</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Library">Github</Card.Link>
+                        <Card.Link href="https://shahadsidek.github.io/Library/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Body>
+                        <Card.Title>Movies Website </Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Movies-Responsive">Github</Card.Link>
+                        <Card.Link href=" https://shahadsidek.github.io/Movies-Responsive/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
             </div>
         </>
     )
