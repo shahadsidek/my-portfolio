@@ -21,15 +21,15 @@ export default function AboutMe() {
                     </Col>
                     <Col className="about-info">
                         <p>
-                            Self-taught full stack developer well versed with JavaScript and Python. An avid learner, able to quickly grasp new technologies to design efficient and scalable products. Seeking an entry-level web developer position in a reputed company where I can use my educational background to develop my skills.
+                            Energetic professional transitioning into Web Development, UI UX Design and product design. Backed by experience in interior design, project coordination and creative design. Skilled in web development, In the domain of product design, I synergize inventive vision with technical proficiency, emphasizing strategic planning and the optimal utilization of resources.Dedicated to continuous innovation., my focus is on developing user-centric and sustainable product solutions.
                         </p>
                         <h3>
                             Here are a few highlight:
                         </h3>
                         <ul>
-                            <li>Frontend Developer</li>
-                            <li>Python Developer</li>
-                            <li>Database Administrator</li>
+                            <li>Web Developer</li>
+                            <li>UI/UX Designer</li>
+                            <li>Product Designer</li>
                         </ul>
                     </Col>
                 </Row>

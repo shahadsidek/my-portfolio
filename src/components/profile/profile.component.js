@@ -7,7 +7,7 @@ import '../profile/profile.component.css'
 import { Button } from 'react-bootstrap';
 import Typical from 'react-typical';
 import './profile.component.css'
-import ShahadResume from './ShahadSidek Dev.pdf';
+import ShahadResume from './Shahad-UIUX-WebDeveloper.pdf';
 
 export default function Profile() {
     return (
@@ -24,19 +24,16 @@ export default function Profile() {
                                         steps={[
                                             "Web Developer",
                                             1500,
-                                            "Frontend Developer",
+                                            "Product Designer",
                                             1500,
-                                            "Python Developer",
-                                            1500,
-                                            "Graphic Desginer",
-                                            1500,
-                                            "Cartoonist",
+                                            "UI UX Desginer",
                                             1500,
                                         ]}
                                     />
                                 </h1>
                                 <span className='pro-text'>
-                                    Ambitious Web Developer brings enthusiasm and detailed understanding of various programming languages to webpage planning, development and maintenance.
+
+                                    Dynamic professional pivoting to Web Development, UI/UX, and Product Design, leveraging a rich background in interior design and project management. Expertise in merging creative insight with web development skills for innovative product design, focusing on user-centric and sustainable solutions. Committed to strategic planning and efficient resource use, aiming for continuous innovation in the tech field.                                
                                 </span>
                             </span>
                         </Row>

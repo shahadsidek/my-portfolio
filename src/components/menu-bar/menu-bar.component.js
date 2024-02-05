@@ -21,6 +21,7 @@ class Menubar extends Component {
                                 <Nav.Link href='#aboutMe'>   About Me</Nav.Link>
                                 <Nav.Link href='#skills'>Skills</Nav.Link>
                                 <Nav.Link href='#projects'>Project</Nav.Link>
+                                <Nav.Link HREF='#case-study'>Case Study</Nav.Link>
                                 <Nav.Link href='#contact'>Contact Me</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
