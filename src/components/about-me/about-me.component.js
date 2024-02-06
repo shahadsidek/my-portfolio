@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import './about-me.component.css'
 import aboutMe from '../../img/AboutMe6.webp';
+import { Button } from 'react-bootstrap';
 
 export default function AboutMe() {
     return (
@@ -31,8 +32,10 @@ export default function AboutMe() {
                             <li>UI/UX Designer</li>
                             <li>Product Designer</li>
                         </ul>
+                        <Button>Check My UI UX Case Studies and Design Thinking</Button>
                     </Col>
                 </Row>
+           
             </Container>
         </>
     )

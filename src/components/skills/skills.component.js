@@ -20,126 +20,126 @@ import Logo16 from '../../img/Skills/1280px-Firebase_Logo.svg.png'
 
 
 export default function Skills() {
-  return (
-    <div id="skills" className= 'mother-container'>
-        <div><h2>Skills </h2></div>
-        <div class="break"></div>
-        <div className="skills-container">
-            <div className='image-format'>
-                <img
-                    src={Logo1}
-                    width= '80px'
-                    height='80px'
-                    className = "img-animation"
-                    alt="html logo"
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo2}
-                    width= '80px'
-                    height='80px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo3}
-                    width= '85px'
-                    height='80px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo4}
-                    width= '140px'
-                    height='90px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo5}
-                    width= '140px'
-                    height='100px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo6}
-                    width= '140px'
-                    height='100px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo7}
-                    width= '110px'
-                    height='50px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo8}
-                    width= '120px'
-                    height='60px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo9}
-                    width= '130px'
-                    height='48px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo10}
-                    width= '150px'
-                    height='50px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo11}
-                    width= '140px'
-                    height='60px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo12}
-                    width= '140px'
-                    height='60px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo13}
-                    width= '130px'
-                    height='60px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo14}
-                    width= '125px'
-                    height='103px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo15}
-                    width= '110px'
-                    height='103px'
-                />
-            </div>
-            <div className='image-format'>
-                <Image
-                    src={Logo16}
-                    width= '130px'
-                    height='60px'
-                />
+    return (
+        <div id="skills" className='mother-container'>
+            <div><h2>Skills </h2></div>
+            <div class="break"></div>
+            <div className="skills-container">
+                <div className='image-format'>
+                    <img
+                        src={Logo1}
+                        width='80px'
+                        height='80px'
+                        className="img-animation"
+                        alt="html logo"
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo2}
+                        width='80px'
+                        height='80px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo3}
+                        width='85px'
+                        height='80px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo4}
+                        width='140px'
+                        height='90px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo5}
+                        width='140px'
+                        height='100px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo6}
+                        width='140px'
+                        height='100px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo7}
+                        width='110px'
+                        height='50px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo8}
+                        width='120px'
+                        height='60px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo9}
+                        width='130px'
+                        height='48px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo10}
+                        width='150px'
+                        height='50px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo11}
+                        width='140px'
+                        height='60px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo12}
+                        width='140px'
+                        height='60px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo13}
+                        width='130px'
+                        height='60px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo14}
+                        width='125px'
+                        height='103px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo15}
+                        width='110px'
+                        height='103px'
+                    />
+                </div>
+                <div className='image-format'>
+                    <Image
+                        src={Logo16}
+                        width='130px'
+                        height='60px'
+                    />
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }

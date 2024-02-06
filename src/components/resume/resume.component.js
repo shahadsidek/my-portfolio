@@ -100,7 +100,7 @@ const Resume = (props) => {
                 description="Love flipping home and coming up with new designs and adding personal peices to every corner"
             />
             <ResumeHeading
-                heading="Designing Hip Hop clothes"
+                heading=""
                 description="Design Hype - Streetwear - Hip Hop Clothes "
             />
         </div>
