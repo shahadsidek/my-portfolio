@@ -60,7 +60,6 @@ export default function Projects() {
                     <Card.Img variant="top" src="https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
                     <Card.Body>
                         <Card.Title>Music Rolodex</Card.Title>
-
                     </Card.Body>
                     <ListGroup className="list-group-flush">
                         <ListGroup.Item>HTML CSS</ListGroup.Item>
