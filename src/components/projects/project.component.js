@@ -233,7 +233,7 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className="card-style">
-                    <Card.Img variant="top" src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1600 cap" />
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/2398356/pexels-photo-2398356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 cap" />
                     <Card.Body>
                         <Card.Title>Movies Website </Card.Title>
 
