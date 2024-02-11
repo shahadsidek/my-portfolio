@@ -7,6 +7,25 @@ export default function Projects() {
     return (
         <><h2 id="projects">My Projects</h2>
             <div className="card-container">
+
+            <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/5989925/pexels-photo-5989925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 cap" />
+                    <Card.Body>
+                        <Card.Title>Resume Builder </Card.Title>
+
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>HTML</ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
+                        <ListGroup.Item>Javascript</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/shahadsidek/Resume-Builder">Github</Card.Link>
+                        <Card.Link href=" https://shahadsidek.github.io/Resume-Builder/">Website</Card.Link>
+                    </Card.Body>
+                </Card>
+
+
                 <Card style={{ width: '18rem' }} className="card-style">
                     <Card.Img variant="top" src="https://images.pexels.com/photos/833052/pexels-photo-833052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 cap" />
                     <Card.Body>
