@@ -8,8 +8,8 @@ export default function Projects() {
         <><h2 id="projects">My Projects</h2>
             <div className="card-container">
 
-            <Card style={{ width: '18rem' }} className="card-style">
-                    <Card.Img variant="top" src="https://images.pexels.com/photos/5989925/pexels-photo-5989925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 cap" />
+                <Card style={{ width: '18rem' }} className="card-style">
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/5989943/pexels-photo-5989943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 cap" />
                     <Card.Body>
                         <Card.Title>Resume Builder </Card.Title>
 
