@@ -9,7 +9,7 @@ export default function Projects() {
             <div className="card-container">
 
                 <Card style={{ width: '18rem' }} className="card-style">
-                    <Card.Img variant="top" src="https://images.pexels.com/photos/5989943/pexels-photo-5989943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 cap" />
+                    <Card.Img variant="top" src="https://images.pexels.com/photos/18833779/pexels-photo-18833779/free-photo-of-portfolio-text-printed-on-multicolored-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 cap" />
                     <Card.Body>
                         <Card.Title> UI/UX Portfolio </Card.Title>
 
